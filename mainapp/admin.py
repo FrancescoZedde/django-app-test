@@ -1,3 +1,5 @@
 from django.contrib import admin
+from mainapp.models import InventoryItem, Variant
 
-# Register your models here.
+admin.site.register(InventoryItem)
+admin.site.register(Variant)
