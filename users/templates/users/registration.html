@@ -5,6 +5,7 @@
 
 <div class="standard-command-container" style="margin-top: 5%; margin-right:18%; margin-left:18%;">
     <form class="form-horizontal" method="POST">
+        {% csrf_token %}
         <fieldset class="form-group">
             <legend class="border-bottom mb-4">Sign up</legend>
             {{ registration_form }}
