@@ -1,0 +1,9 @@
+ShopifyAPI==12.2.0
+pandas==0.24.2
+openai==0.27.0
+requests==2.26.0
+Django==3.2.3
+WooCommerce==3.0.0
+beautifulsoup4==4.11.2
+django_crispy_forms==2.0
+shopify==0.3.0
